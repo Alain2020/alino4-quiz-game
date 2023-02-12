@@ -14,14 +14,18 @@ def new_game():
          guess = guess.upper()
          guesses.append(guess)
 
-         
+         correct_guesse += check_answer(questions.get(key),guss)
     question_num += 1
 
 
-
 #------------------------------
-def check_answer():
-    pass
+def check_answer(answer, guess):
+    
+     if answer == guess:
+        print("COORECT!")
+        return 1
+        else:("WRONG!")
+        return 0
 #------------------------------
 def display_score():
     pass
