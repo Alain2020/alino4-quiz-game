@@ -82,3 +82,10 @@ options   = [["A. The cheetah", "B. Lion", "C. Kangaroo", "D. Hyena "],
             ["A. Anthony Eden", "B. Robert Peel", "C. Bonar Law", "D. Gordon Brown "],
             ["A. Kenya", "B. Ethiopia", "C. Comoros", "D. Uganda "],
             ["A. Mozambique", "B. Namibia", "C. Tanzania", "D. Botswana "]]
+
+
+new_game()
+while play_again()
+new_game()
+
+print("Byeeeee!")
