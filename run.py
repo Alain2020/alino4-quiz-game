@@ -1,6 +1,15 @@
 #------------------------------
 def new_game():
-    pass
+    
+    guesses = []
+    correct_guesses = 0
+    question_num = 1
+
+    for key in quuestions:
+        print("--------------------")
+        print(key)
+        for i in options:
+            print(i)
 #------------------------------
 def check_answer():
     pass
@@ -13,7 +22,7 @@ def play_again():
 #------------------------------
 
 questions = {"What’s the fastest land animal in the world?: ": "A",
-             "How many hearts does an octopus have?: ": "C",,
+             "How many hearts does an octopus have?: ": "C",
              "What country won the very first FIFA World Cup in 1930?: ": "D",
              "What color is the tongue of a giraffe?: ": "B",
              "For which team did Michael Jordan spend most of his career playing?: " : "D",
