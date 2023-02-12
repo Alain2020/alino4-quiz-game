@@ -17,6 +17,8 @@ def new_game():
          correct_guesse += check_answer(questions.get(key),guss)
     question_num += 1
 
+    display_score(correct_guesses, guesses)
+
 
 #------------------------------
 def check_answer(answer, guess):
@@ -27,8 +29,14 @@ def check_answer(answer, guess):
         else:("WRONG!")
         return 0
 #------------------------------
-def display_score():
-    pass
+def display_score(correct_guesses, guesses):
+    print("----------------------")
+    print("RESULTS")
+    print("----------------------")
+    print("Answers: ", end="")
+    for i in questions:
+        print(questions.get(i), end="")
+        print()
 #------------------------------
 def play_again():
     pass
