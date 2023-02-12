@@ -49,7 +49,15 @@ def display_score(correct_guesses, guesses):
         print("Your score is: "+str(score)+"%")
 #------------------------------
 def play_again():
-    pass
+    
+    response = input("Do you want play again?: (Yes or No): ")
+    response = response.upper()
+
+    if  response == "YES":
+        return True
+        else:
+        return False
+        
 #------------------------------
 
 questions = {"What’s the fastest land animal in the world?: ": "A",
