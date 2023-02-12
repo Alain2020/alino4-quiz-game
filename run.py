@@ -1,12 +1,12 @@
-#------------------------------
+# -------------------------
 def new_game():
-    
+
     guesses = []
     correct_guesses = 0
     question_num = 1
 
-    for key in quuestions:
-        print("--------------------")
+    for key in questions:
+        print("-------------------------")
         print(key)
         for i in options[question_num-1]:
             print(i)
@@ -14,51 +14,52 @@ def new_game():
         guess = guess.upper()
         guesses.append(guess)
 
-        correct_guesse += check_answer(questions.get(key),guss)
-    question_num += 1
+        correct_guesses += check_answer(questions.get(key), guess)
+        question_num += 1
 
     display_score(correct_guesses, guesses)
 
-
-#------------------------------
+# -------------------------
 def check_answer(answer, guess):
-    
-       if answer == guess:
+
+    if answer == guess:
         print("CORRECT!")
         return 1
     else:
-    print("WRONG!")
-    return 0
-#------------------------------
+        print("WRONG!")
+        return 0
+
+# -------------------------
 def display_score(correct_guesses, guesses):
-    print("----------------------")
+    print("-------------------------")
     print("RESULTS")
-    print("----------------------")
+    print("-------------------------")
 
     print("Answers: ", end="")
     for i in questions:
         print(questions.get(i), end=" ")
-        print()
+    print()
 
-        print("guesses: ", end="")
-    for i in questions:
-        print(guesses.get(i), end=" ")
-        print()
+    print("Guesses: ", end="")
+    for i in guesses:
+        print(i, end=" ")
+    print()
 
-        seore = int((correct_guesses/len(questions))*100)
-        print("Your score is: "+str(score)+"%")
-#------------------------------
+    score = int((correct_guesses/len(questions))*100)
+    print("Your score is: "+str(score)+"%")
+
+# -------------------------
 def play_again():
-    
-    response = input("Do you want play again?: (Yes or No): ")
+
+    response = input("Do you want to play again? (yes or no): ")
     response = response.upper()
 
-    if  response == "YES":
+    if response == "YES":
         return True
-        else:
+    else:
         return False
-        
-#------------------------------
+# -------------------------
+
 
 questions = {"What’s the fastest land animal in the world?: ": "A",
              "How many hearts does an octopus have?: ": "C",
@@ -85,7 +86,10 @@ options   = [["A. The cheetah", "B. Lion", "C. Kangaroo", "D. Hyena "],
 
 
 new_game()
-while play_again()
-new_game()
 
-print("Byeeeee!")
+while play_again():
+    new_game()
+
+print("Byeeeeee!")
+
+# -------------------------
