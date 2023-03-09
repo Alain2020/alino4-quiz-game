@@ -1,4 +1,7 @@
-# -------------------------
+# ----------------- Welocme the user
+
+print("Welcome to the Solino Quiz Game! ")
+
 def new_game():
 
     guesses = []
@@ -61,7 +64,7 @@ def play_again():
 # -------------------------
 
 
-questions = {"What’s the fastest land animal in the world?: ": "A",
+QUESTIONS = {"What’s the fastest land animal in the world?: ": "A",
              "How many hearts does an octopus have?: ": "C",
              "What country won the very first FIFA World Cup in 1930?: ": "D",
              "What color is the tongue of a giraffe?: ": "B",
@@ -73,7 +76,7 @@ questions = {"What’s the fastest land animal in the world?: ": "A",
              "Which country is the island of Zanzibar part of?: " : "C"
              }
 
-options   = [["A. The cheetah", "B. Lion", "C. Kangaroo", "D. Hyena "],
+OPTIONS   = [["A. The cheetah", "B. Lion", "C. Kangaroo", "D. Hyena "],
             ["A. One", "B. Nine", "C.Three", "D. Five "],
             ["A. Brazil", "B. United States", "C. Spain", "D.Uruguay "],
             ["A. Black", "B. Purple", "C. Pink", "D. Grey "],
