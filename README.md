@@ -1,31 +1,17 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+@@ -13,9 +13,9 @@ Image produced from [Am I Responsive](http://ami.responsivedesign.is)
 
-Welcome Alain2020,
+This project was made for educational purposes only. 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+#What is the purpose of quiz game? 
 
-## Reminders
+A quiz is a form of game or mind sport in which players attempt to answer questions correctly on one or several specific topics. Quizzes can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills. 
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+**The business goals of this website are:**
 
-## Creating the Heroku app
+@@ -29,9 +29,9 @@ The primary goal of the website is to inform and direct users to the contact for
+- To seek validation that the company are reputable and credible to potentially build a long-term working relationship.
+- To find out which artists the company represents and venues they are currently working with in order to gauge successful ticket sales and events.
+- To view evidence of promotional activity such as active social media channels marketing and promoting their current clients.
+- To effortlessly find contact information to touch base with the team.
+- To effortlessly find contact information to touch base with the promoter.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
