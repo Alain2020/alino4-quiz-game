@@ -44,17 +44,15 @@ With is quiz game you'll get a congratulation after the user get the correct ans
 And the user will only know the scores after he/she finish playing the quiz.
 
 ## technology
+Python programming languages
 
 ## testing
-   8.1 code validation
-   8.2 test cases (user story based with screenshots)
-   8.3 fixed bugs
-   8.4 supported screens and browsers
+  
 
 
 ## Deployment
 1 via gitpod
-   9.2 via github pages
+  to Heroku
 
 
 ## Credits
