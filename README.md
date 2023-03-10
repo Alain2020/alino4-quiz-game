@@ -4,10 +4,10 @@ Knowledge becomes power only when we put it into some use.....so let's honour ou
 
 ## The purpose of this quiz game:
 
-This quiz is a form of game or mind sport in which players attempt to answer questions correctly on one or several specific topics. And this quizzes can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills. 
-
- ## user stories
-
+The purpose to game is to make our online users to have to fun while relaxing their mind.
+Yes, Quizzes are a great way to have fun, but they can also be used quiz as a tool for self-improvement. They can help you learn more about yourself and how others view you. In a quiz, which is also known as a mind sport, participants compete to answer questions either individually or in teams correctly.
+Ihis is a individual game, that after reading the question you will then choose 
+in the answers below by entering any of the letters (A,B,C,D) to get the correct answer.
 
 ## Features of the quiz 
 
@@ -40,12 +40,8 @@ This Multiple choice questions is also be assessed quickly, providing users/stud
 I want to Randomize the positions of the correct answers for the use to choose.
 I Don't want to make the questions too easy and don't make the answers too tricky.
 
-
-##  wireframes
-
-
-=== 1-6 for planning and then write code ===
-
+With is quiz game you'll get a congratulation after the user get the correct answer.
+And the user will only know the scores after he/she finish playing the quiz.
 
 ## technology
 
