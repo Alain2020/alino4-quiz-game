@@ -3,6 +3,16 @@ import time
 # ----------------- Welocme the user
 print("Welcome to the Solino Quiz Game! ")
 time.sleep(1)
+#---------------
+playing = input("Do you want to play? ")
+
+if playing != "yes":
+    quit()
+    time.sleep(1)
+print("Okay! let's play! :)")
+time.sleep(1)
+
+#-----------------
 
 #chances 
 chances = 1
@@ -20,7 +30,7 @@ def new_game():
         print(key)
         for i in OPTIONS[question_num-1]:
             print(i)
-        guess = input("Enter (A, B, C, or D): ")
+        guess = input("Enter (A, B, C, or D): ").upper()
         guess = guess.upper()
         guesses.append(guess)
 
