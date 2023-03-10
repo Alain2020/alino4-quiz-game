@@ -1,5 +1,7 @@
 # This project was made for educational purposes only. 
 
+Knowledge becomes power only when we put it into some use.....so let's honour our knowledge by answering some simple quiz questions. "Knowledge has a beginning but no end" so let's keep ourselves going...... Thank you reading.
+
 ## The purpose of this quiz game:
 
 This quiz is a form of game or mind sport in which players attempt to answer questions correctly on one or several specific topics. And this quizzes can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills. 
