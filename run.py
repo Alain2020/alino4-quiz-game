@@ -1,4 +1,13 @@
+import time
+
 # ----------------- Welocme the user
+print("Welcome to the Solino Quiz Game! ")
+time.sleep(1)
+
+#chances 
+chances = 1
+print("You will have", chances, "chance to answer correctly. \nPlease put the alphabet of the answer\n")
+time.sleep(2)
 
 def new_game():
 
@@ -24,11 +33,15 @@ def new_game():
 def check_answer(answer, guess):
 
     if answer == guess:
-        print("CORRECT!")
+        print("CORRECT! Good Job.\n")
+        time.sleep(2)
         return 1
+
     else:
-        print("WRONG!")
+        print("WRONG!\n ")
+        time.sleep(0.5)
         return 0
+        
 
 # -------------------------
 def display_score(correct_guesses, guesses):
@@ -91,6 +104,8 @@ new_game()
 while play_again():
     new_game()
 
+#Goodbye Message
+print("Thank you for playing the Simple Quiz Game!")
 print("Byeeeeee!")
 
 # -------------------------
