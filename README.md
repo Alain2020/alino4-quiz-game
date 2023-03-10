@@ -27,6 +27,18 @@ Potential to support individual learning.
 These three themes and many more, are that quizzes that can be used to motivate people, help them remember information, 
 and to help assess what they know.
 
+This Multiple choice tests is an effective and simple way to measure learning with fun. 
+This Multiple choice questions is also be assessed quickly, providing users/students with prompt feedback.
+ In addition, This is a well-written multiple choice questions quiz game that go beyond testing rote facts and may measure higher cognitive abilities.
+
+ ### How do you make a quiz interesting
+
+ My gold is to me this quiz game as one of the most intersting online game.
+ I want to Keep it short and simple, and I don't want to complicate the quiz more than needed.
+I want to Randomize the positions of the correct answers for the use to choose.
+I Don't want to make the questions too easy and don't make the answers too tricky.
+
+
 ##  wireframes
 
 
