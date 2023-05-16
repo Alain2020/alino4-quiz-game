@@ -1,5 +1,3 @@
-import time
-
 # ----------------- Welocme the user
 print("Welcome to the Solino Quiz Game! ")
 time.sleep(1)
@@ -118,4 +116,4 @@ while play_again():
 print("Thank you for playing the Simple Quiz Game!")
 print("Byeeeeee!")
 
-# -------------------------
+# ------------------------- 
